@@ -1,6 +1,6 @@
-resource "aws_security_group" "tf_mod_sg" {
+resource "aws_security_group" "tf_mod_sg_cloud" {
   name        = var.sg_name
-  description = "tf_mod_sg"
+  description = "tf_mod_sg_cloud"
 
   
 
